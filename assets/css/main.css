@@ -152,6 +152,7 @@ h6 {
   background-color: var(--background-color);
   padding: 15px 0;
   transition: all 0.5s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 997;
 }
 
@@ -173,9 +174,7 @@ h6 {
   color: var(--heading-color);
 }
 
-.scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
-}
+.scrolled .header {}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -676,37 +675,53 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 20px 0;
+  /* background-image: url(/assets/img/about.jpg);*/
+  padding: 60px 0;
+  /* height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
   position: relative;
 }
 
 .page-title h1 {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 75px;
+  font-weight: 900;
   margin: 0 0 5px 0;
+  text-align: center;
+
 }
 
 .page-title .breadcrumbs ol {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
+  font-weight: 700;
   font-size: 14px;
-  font-weight: 400;
+
 }
 
 .page-title .breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
+.page-title .breadcrumbs ol .previous a {
+  color: var(--default-color);
+}
+
+.page-title .breadcrumbs ol .current {
+  color: var(--accent-color);
+}
+
 .page-title .breadcrumbs ol li+li::before {
   content: "/";
   display: inline-block;
   padding-right: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  font-weight: 700;
+  color: var(--default-color);
 }
 
 /*--------------------------------------------------------------
@@ -820,6 +835,12 @@ section,
 
 .about .hero-img {
   border-radius: 12px;
+}
+
+.about .header-img {
+  width: 100%;
+  max-width: 100%;
+  height: 82%;
 }
 
 /*--------------------------------------------------------------
@@ -996,7 +1017,7 @@ section,
 .connect .container {}
 
 .connect .form-control {
-  width: 95%;
+  width: 100%;
   border: none;
   border-bottom: 2px solid var(--heading-color);
   border-radius: 0;
@@ -1214,6 +1235,91 @@ section,
   box-shadow: 6px 6px 0px var(--accent-color);
   background-color: #ececec;
   color: var(--default-color);
+}
+
+
+/*About Us Page*/
+/*aboutus section*/
+.aboutus .img-box img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.aboutus .img-box {
+  padding: 0;
+  object-fit: cover;
+}
+
+.aboutus h2 {
+  margin-bottom: 2rem;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.aboutus p {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.aboutus .whoweare p {
+  margin-bottom: 3.5rem;
+}
+
+.aboutus .whoweare p,
+.aboutus .whatwedo p {
+  padding-right: 2rem;
+}
+
+.aboutus .card {
+  border-radius: 12px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: start;
+  padding: 25px 15px 5px 15px;
+  border: 3px solid var(--default-color);
+  height: 360px;
+  cursor: pointer;
+  /*box-shadow: 0 3px 8px var(--default-color);*/
+  box-shadow: 6px 6px 0px var(--default-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutus .mg-top {
+  margin-top: 100px;
+}
+
+.aboutus .card:hover {
+  transform: translateY(8px);
+  box-shadow: 6px -8px 0px var(--default-color);
+}
+
+.aboutus .values {
+  column-gap: 80px;
+  row-gap: 50px;
+  padding: 25px 0 0 0;
+  justify-content: space-evenly;
+}
+
+.aboutus .values .value {
+  background-color: var(--accent-color);
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px 0px var(--default-color);
+  gap: 5px;
+  border-radius: 55px;
+}
+
+.aboutus .values .value h3 {
+  color: var(--contrast-color);
+}
+
+.aboutus .values .value span {
+  font-size: 40px;
+  color: var(--contrast-color);
 }
 
 /*services section*/

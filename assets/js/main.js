@@ -1,11 +1,3 @@
-/**
- * Template Name: Active
- * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
- * Updated: Aug 07 2024 with Bootstrap v5.3.3
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
-
 (function () {
   "use strict";
 
@@ -61,6 +53,28 @@
       this.parentNode.classList.toggle("active");
       this.parentNode.nextElementSibling.classList.toggle("dropdown-active");
       e.stopImmediatePropagation();
+    });
+  });
+
+  /* active class to the active nav link*/
+  document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll("#navmenu ul li a");
+
+    // Get the current URL path
+    const currentPath = window.location.pathname;
+
+    navLinks.forEach((link) => {
+      // Remove 'active' class from all links
+      link.classList.remove("active");
+
+      // Handle special case for home page
+      if (currentPath === "/" && link.getAttribute("href") === "/") {
+        link.classList.add("active");
+      }
+      // For other links, check if the current path matches the link's href exactly
+      else if (currentPath === link.getAttribute("href")) {
+        link.classList.add("active");
+      }
     });
   });
 
