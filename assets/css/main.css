@@ -838,9 +838,24 @@ section,
 }
 
 .about .header-img {
+  position: relative;
+  display: block;
   width: 100%;
   max-width: 100%;
   height: 82%;
+  z-index: 1;
+}
+
+.about .header-text {
+  position: absolute;
+  color: var(--contrast-color);
+  line-height: 6rem;
+  font-size: 5rem;
+  font-weight: bold;
+  z-index: 2;
+  top: 22%;
+  width: 100%;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -950,7 +965,7 @@ section,
 }
 
 .projects .mg-top {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .projects .allprojects-btn {
@@ -1019,7 +1034,9 @@ section,
 .connect .form-control {
   width: 100%;
   border: none;
-  border-bottom: 2px solid var(--heading-color);
+  /*border: 2px solid var(--default-color);*/
+  /* box-shadow: 6px 6px 0 var(--default-color);*/
+  border-bottom: 2px solid var(--default-color);
   border-radius: 0;
   padding: 18px;
   margin-bottom: 20px;
@@ -1498,7 +1515,7 @@ section,
 }
 
 .blog-posts .mg-top {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .blog-posts .allprogramms-btn {
