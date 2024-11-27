@@ -174,8 +174,6 @@ h6 {
   color: var(--heading-color);
 }
 
-.scrolled .header {}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -243,8 +241,6 @@ h6 {
     margin-left: 5px;
     transition: 0.3s;
   }
-
-  .navmenu li:last-child a {}
 
   .navmenu li:hover>a,
   .navmenu .active,
@@ -1029,8 +1025,6 @@ section,
 }
 
 /*connect section*/
-.connect .container {}
-
 .connect .form-control {
   width: 100%;
   border: none;
