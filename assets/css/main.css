@@ -1263,9 +1263,15 @@ section,
 }
 
 .aboutus h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-size: 30px;
   font-weight: 900;
+}
+
+
+.aboutus .whoweare h2,
+.aboutus .whatwedo h2 {
+  margin-bottom: 1rem;
 }
 
 .aboutus p {
@@ -1293,7 +1299,7 @@ section,
   height: 360px;
   cursor: pointer;
   /*box-shadow: 0 3px 8px var(--default-color);*/
-  box-shadow: 6px 6px 0px var(--default-color);
+  box-shadow: 6px -6px 0px var(--default-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1302,12 +1308,12 @@ section,
 }
 
 .aboutus .card:hover {
-  transform: translateY(8px);
-  box-shadow: 6px -8px 0px var(--default-color);
+  transform: translateY(-8px);
+  box-shadow: 6px 6px 0px var(--default-color);
 }
 
 .aboutus .values {
-  column-gap: 80px;
+  column-gap: 100px;
   row-gap: 50px;
   padding: 25px 0 0 0;
   justify-content: space-evenly;
@@ -1315,7 +1321,7 @@ section,
 
 .aboutus .values .value {
   background-color: var(--accent-color);
-  padding: 25px;
+  padding: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1326,10 +1332,11 @@ section,
 
 .aboutus .values .value h3 {
   color: var(--contrast-color);
+  font-size: 28px;
 }
 
 .aboutus .values .value span {
-  font-size: 40px;
+  font-size: 35px;
   color: var(--contrast-color);
 }
 
