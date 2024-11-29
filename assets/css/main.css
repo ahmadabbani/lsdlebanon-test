@@ -1025,13 +1025,15 @@ section,
 }
 
 /*connect section*/
+
+
 .connect .form-control {
   width: 100%;
   border: none;
   /*border: 2px solid var(--default-color);*/
+  border-radius: 0;
   /* box-shadow: 6px 6px 0 var(--default-color);*/
   border-bottom: 2px solid var(--default-color);
-  border-radius: 0;
   padding: 18px;
   margin-bottom: 20px;
 }
@@ -2283,37 +2285,37 @@ section,
 /*--------------------------------------------------------------
 # Blog Posts 2 Section
 --------------------------------------------------------------*/
-.blog-posts-2 article {
+.allprojects article {
   height: 100%;
 }
 
-.blog-posts-2 .post-img {
+.allprojects .project-img {
   max-height: 440px;
   overflow: hidden;
 }
 
-.blog-posts-2 .title {
+.allprojects .title {
   font-size: 20px;
   font-weight: 700;
   padding: 0;
   margin: 5px 0;
 }
 
-.blog-posts-2 .title a {
+.allprojects .title a {
   color: var(--heading-color);
   transition: 0.3s;
 }
 
-.blog-posts-2 .title a:hover {
+.allprojects .title a:hover {
   color: var(--accent-color);
 }
 
-.blog-posts-2 .meta-top {
+.allprojects .meta-top {
   margin-top: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.blog-posts-2 .meta-top ul {
+.allprojects .meta-top ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -2322,57 +2324,19 @@ section,
   margin: 0;
 }
 
-.blog-posts-2 .meta-top i {
+.allprojects .meta-top i {
   font-size: 24px;
   line-height: 0;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
-.blog-posts-2 .meta-top a {
+.allprojects .meta-top a {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-size: 14px;
   display: inline-block;
   line-height: 1;
 }
 
-/*--------------------------------------------------------------
-# Blog Pagination Section
---------------------------------------------------------------*/
-.blog-pagination {
-  padding-top: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.blog-pagination ul {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.blog-pagination li {
-  margin: 0 5px;
-  transition: 0.3s;
-}
-
-.blog-pagination li a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding: 7px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.blog-pagination li a.active,
-.blog-pagination li a:hover {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.blog-pagination li a.active a,
-.blog-pagination li a:hover a {
-  color: var(--contrast-color);
-}
 
 /*--------------------------------------------------------------
 # Blog Details Section
@@ -2527,151 +2491,19 @@ section,
   padding-left: 5px;
 }
 
-/*--------------------------------------------------------------
-# Blog Comments Section
---------------------------------------------------------------*/
-.blog-comments {
-  padding: 10px 0;
-}
-
-.blog-comments .comments-count {
-  font-weight: bold;
-}
-
-.blog-comments .comment {
-  margin-top: 30px;
-  position: relative;
-}
-
-.blog-comments .comment .comment-img {
-  margin-right: 14px;
-}
-
-.blog-comments .comment .comment-img img {
-  width: 60px;
-}
-
-.blog-comments .comment h5 {
-  font-size: 16px;
-  margin-bottom: 2px;
-}
-
-.blog-comments .comment h5 a {
-  font-weight: bold;
-  color: var(--default-color);
-  transition: 0.3s;
-}
-
-.blog-comments .comment h5 a:hover {
-  color: var(--accent-color);
-}
-
-.blog-comments .comment h5 .reply {
-  padding-left: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.blog-comments .comment h5 .reply i {
-  font-size: 20px;
-}
-
-.blog-comments .comment time {
-  display: block;
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  margin-bottom: 5px;
-}
-
-.blog-comments .comment.comment-reply {
-  padding-left: 40px;
-}
-
-/*--------------------------------------------------------------
-# Comment Form Section
---------------------------------------------------------------*/
-.comment-form {
-  padding-top: 10px;
-}
-
-.comment-form form {
-  background-color: var(--surface-color);
-  margin-top: 30px;
-  padding: 30px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-.comment-form form h4 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.comment-form form p {
-  font-size: 14px;
-}
-
-.comment-form form input {
-  background-color: var(--surface-color);
-  color: var(--default-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  font-size: 14px;
-  border-radius: 4px;
-  padding: 10px 10px;
-}
-
-.comment-form form input:focus {
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  box-shadow: none;
-  border-color: var(--accent-color);
-}
-
-.comment-form form input::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-}
-
-.comment-form form textarea {
-  background-color: var(--surface-color);
-  color: var(--default-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  border-radius: 4px;
-  padding: 10px 10px;
-  font-size: 14px;
-  height: 120px;
-}
-
-.comment-form form textarea:focus {
-  color: var(--default-color);
-  box-shadow: none;
-  border-color: var(--accent-color);
-  background-color: var(--surface-color);
-}
-
-.comment-form form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-}
-
-.comment-form form .form-group {
-  margin-bottom: 25px;
-}
-
-.comment-form form .btn-primary {
-  border-radius: 4px;
-  padding: 10px 20px;
-  border: 0;
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.comment-form form .btn-primary:hover {
-  color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact {
+  /* background-image: url("/assets/img/connect.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*blue shade*/
+}
+
 .contact .info {
-  background-color: var(--surface-color);
+  background: transparent;
   /*box-shadow: 7px 7px 0 var(--default-color);
   border: 2px solid var(--default-color);*/
 }
@@ -2686,6 +2518,7 @@ section,
 }
 
 .contact .info-item {
+  background-color: var(--contrast-color);
   display: flex;
   flex-direction: column;
   text-align: center;
