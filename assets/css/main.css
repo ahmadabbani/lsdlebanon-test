@@ -2319,20 +2319,22 @@ section,
 /*--------------------------------------------------------------
 # Blog Posts 2 Section
 --------------------------------------------------------------*/
-.allprojects article {
-  height: 100%;
+
+.allprojects .project-img img {
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
 }
 
-.allprojects .project-img {
-  max-height: 440px;
-  overflow: hidden;
+.allprojects .project-img img:hover {
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 .allprojects .title {
   font-size: 20px;
   font-weight: 700;
-  padding: 0;
-  margin: 5px 0;
+  margin: 12px 0 10px 0;
 }
 
 .allprojects .title a {
@@ -2343,6 +2345,7 @@ section,
 .allprojects .title a:hover {
   color: var(--accent-color);
 }
+
 
 .allprojects .meta-top {
   margin-top: 10px;

@@ -443,11 +443,24 @@ function displayProjects() {
     const imgDiv = document.createElement("div");
     imgDiv.classList.add("project-img");
 
+    // Create the anchor element
+    const imglink = document.createElement("a");
+    imglink.href = `projectDetails.html?title=${encodeURIComponent(
+      project.title
+    )}`;
+    imglink.target = "_blank"; // Optional: Open in a new tab
+
+    // Create the image element
     const img = document.createElement("img");
     img.src = project.photos.gallery[0];
     img.alt = project.title;
     img.classList.add("img-fluid");
-    imgDiv.appendChild(img);
+
+    // Append the image to the anchor
+    imglink.appendChild(img);
+
+    // Append the anchor to the container
+    imgDiv.appendChild(imglink);
 
     // Create the project title with link
     const h2 = document.createElement("h2");
