@@ -1290,7 +1290,7 @@ section,
   padding-right: 2rem;
 }
 
-.aboutus .card {
+.aboutus .box {
   border-radius: 12px;
   display: flex;
   gap: 15px;
@@ -1309,7 +1309,7 @@ section,
   margin-top: 100px;
 }
 
-.aboutus .card:hover {
+.aboutus .box:hover {
   transform: translateY(-8px);
   box-shadow: 6px 6px 0px var(--default-color);
 }
@@ -1317,30 +1317,64 @@ section,
 .aboutus .values {
   column-gap: 100px;
   row-gap: 50px;
-  padding: 25px 0 0 0;
+  padding: 25px 80px 0 80px;
   justify-content: space-evenly;
 }
 
-.aboutus .values .value {
+.aboutus .values button {
   background-color: var(--accent-color);
-  padding: 18px;
+  color: var(--default-color);
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid var(--default-color);
+  width: fit-content !important;
+  height: fit-content !important;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 6px 6px 0px var(--default-color);
   gap: 5px;
-  border-radius: 55px;
+}
+
+.aboutus .values button span {
+  color: var(--default-color);
+  font-size: 25px !important;
+  font-weight: 700;
+}
+
+.aboutus .values .value {
+  position: relative !important;
+}
+
+.aboutus .values .text-box {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  z-index: 9999;
+}
+
+.aboutus .values .text-box .card {
+  border: 2px solid var(--default-color);
+  color: var(--default-color);
+}
+
+.value-btn button[aria-expanded="false"] .material-symbols-outlined {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+/* Rotated state for the span when expanded */
+.value-btn button[aria-expanded="true"] .material-symbols-outlined {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
 }
 
 .aboutus .values .value h3 {
   color: var(--contrast-color);
-  font-size: 28px;
+  font-size: 20px;
 }
 
-.aboutus .values .value span {
-  font-size: 35px;
-  color: var(--contrast-color);
-}
 
 /*services section*/
 .services {
