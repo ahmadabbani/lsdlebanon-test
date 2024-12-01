@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Project Details - LSD Lebanon</title>
+    <title>Donate-Us - LSD Lebanon</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -34,7 +34,7 @@
     <link href="assets/css/main.css" rel="stylesheet" />
 </head>
 
-<body class="project-details-page">
+<body class="donation-page">
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -59,25 +59,135 @@
 
     <main class="main">
         <!-- Page Title -->
-        <div class="page-title">
-            <div class="container">
-                <h1>Projects</h1>
-                <nav class="breadcrumbs">
-                    <ol>
-                        <li class="previous"><a href="projects.html">Projects</a></li>
-                        <li class="current">Project Details</li>
-                    </ol>
-                </nav>
+        <div class="page-title light-background">
+            <div class="container d-flex flex-column align-items-center">
+                <h1>Help Us Grow</h1>
+                <a href="#donation-form" class="make-a-d-btn">Make a Donation <span
+                        class="material-symbols-outlined arrow-animation">
+                        keyboard_arrow_down
+                    </span></a>
             </div>
         </div>
         <!-- End Page Title -->
-        <section id="projectdetails" class="projectdetails section">
-            <div class="container container-full">
-                <div class="row">
-                    <!-- The JavaScript will populate this row with the project details -->
+
+        <!--Make a Donation section-->
+        <section id="make-a-donation" class="section make-a-donation light-background">
+            <div class="container">
+                <div class="row p-5  align-items-stretch contrast-background">
+                    <div class="col-5 d-flex p-0  ">
+                        <img src="assets/img/programms/kelly-sikkema-4le7k9XVYjE-unsplash.jpg"
+                            class="img-fluid w-100 h-100 object-fit-cover" />
+                    </div>
+                    <div class="col-7 ps-4 d-flex flex-column">
+                        <div class="donation-content">
+                            <h3>Support Your Local</h3>
+                            <p>LSD’s mission is to work towards the promotion of the aims and the Universal Declaration
+                                of Human
+                                Rights and all related charter, to develop leadership abilities within individuals, and
+                                to achieve
+                                sustainable development between its three dimensions: environmental, social, and
+                                economic. The
+                                organization aims to build a sustainable society that promotes and protects equality,
+                                social justice,
+                                and human rights for all.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <!--- Donation Form section-->
+        <section id="donation-form" class="section donation-form">
+            <div class="container">
+                <h1>Make a Donation to Support Your Local</h1>
+                <div class="row">
+                    <div class="col-12 col-md-6 ">
+                        <h4>For the USD account:</h4>
+                        <ul>
+                            <li><strong>Bank name :</strong> SARADAR BANK S.A.R.L</li>
+                            <li><strong>Beneficiary name :</strong> Leadership for Sustainable Development (LSD)</li>
+                            <li><strong>Full account number :</strong> 1350333</li>
+                            <li><strong>Currency :</strong> USD</li>
+                            <li><strong>Bank codes:</strong> SARADAR BANL S.A.L. – SARADAR BUILDING, CHARLES MALEK
+                                AVENUE</li>
+                            <li><strong>Bank SWIFT code :</strong> BTLVLBBEXXX</li>
+                            <li><strong>Bank IBAN code :</strong> LB39004800000011350333003840</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <h4>For the EURO account:</h4>
+                        <ul>
+                            <li><strong>Bank name :</strong> SARADAR BANK S.A.R.L</li>
+                            <li><strong>Beneficiary name :</strong> Leadership for Sustainable Development (LSD)</li>
+                            <li><strong>Full account number :</strong> 1350333</li>
+                            <li><strong>Currency :</strong> EURO</li>
+                            <li><strong>Bank codes:</strong> SARADAR BANL S.A.L. – SARADAR BUILDING, CHARLES MALEK
+                                AVENUE</li>
+                            <li><strong>Bank SWIFT code :</strong> BTLVLBBEXX</li>
+                            <li><strong>Bank IBAN code :</strong> LB96004800000011350333003978</li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <form class="form" id="donationForm">
+                            <div class="form-row">
+                                <input type="text" placeholder="Name" name="name" id="nameInput" />
+                                <input type="email" placeholder="Email" name="email" id="emailInput" />
+                            </div>
+                            <div class="form-row">
+                                <input type="text" placeholder="Company Name" name="company" />
+                                <select name="donation" class="donation-select" id="donationSelect">
+                                    <option value="" disabled selected>Donation Amount</option>
+                                    <option value="20">$20</option>
+                                    <option value="50">$50</option>
+                                    <option value="100">$100</option>
+                                    <option value="200">$200</option>
+                                    <option value="custom">Custom Amount</option>
+                                </select>
+                            </div>
+                            <div class="form-row custom-amount-row" id="customAmountRow" style="display: none;">
+                                <input type="number" placeholder="Enter Custom Amount" name="donation"
+                                    id="customAmountInput" />
+                            </div>
+                            <button type="submit">Donate Now</button>
+                            <div id="errorMessages" style="color: red; margin-top: 10px;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--location section -->
+        <section id="location" class="location section">
+            <div class="container section-title" data-aos="fade-up">
+                <img src="assets/img/location-50.png" />
+                <h1>LSD</h1>
+            </div><!-- End Section Title -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="phone info card-clickable" data-url="https://wa.me/96171684897">
+                            <img src="assets/img/phone-50.png" />
+                            <h5>+961-71684897</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="phone info card-clickable" data-url="mailto:contact@lsdlebanon.org">
+                            <img src="assets/img/mail-50.png" />
+                            <h5>contact@lsdlebanon.org</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="phone info card-clickable" data-url="https://maps.google.com?q=beirut">
+                            <img src="assets/img/location-50.png" />
+                            <h5>Bauchrieh, Metn – Lebanon</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center mt-5">
+                        <a href="contact.html" class="btn-get-started">Contact Us <img
+                                src="assets/img/right-30.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--Footer section-->
         <section id="footer" class="section">
             <div class="container  container-full">
@@ -197,13 +307,7 @@
     <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-    <!-- Data file first -->
-    <script src="assets/js/projectsData.js"></script>
-
-    <!-- Projects logic that uses the data -->
-    <script src="assets/js/project-details.js"></script>
-
-    <!-- Main file for site-wide functionality -->
+    <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
 

@@ -187,6 +187,63 @@
       });
   }
 
+  /*donation form*/
+  document
+    .getElementById("donationSelect")
+    .addEventListener("change", function () {
+      const customAmountRow = document.getElementById("customAmountRow");
+      const customAmountInput = document.getElementById("customAmountInput");
+
+      if (this.value === "custom") {
+        customAmountRow.style.display = "flex"; // Show custom amount input
+        customAmountInput.value = ""; // Clear previous value
+      } else {
+        customAmountRow.style.display = "none"; // Hide custom amount input
+      }
+    });
+
+  document
+    .getElementById("donationForm")
+    .addEventListener("submit", function (event) {
+      const nameInput = document.getElementById("nameInput");
+      const emailInput = document.getElementById("emailInput");
+      const donationSelect = document.getElementById("donationSelect");
+      const customAmountInput = document.getElementById("customAmountInput");
+      const errorMessages = document.getElementById("errorMessages");
+
+      let errors = []; // Collect errors
+
+      // Validate Name
+      if (nameInput.value.trim().length < 3) {
+        errors.push("Name must be at least 3 characters long.");
+      }
+
+      // Validate Email
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(emailInput.value)) {
+        errors.push("Please enter a valid email address.");
+      }
+
+      // Validate Donation Amount
+      if (donationSelect.value === "custom") {
+        if (!customAmountInput.value || customAmountInput.value <= 0) {
+          errors.push("Please enter a valid custom donation amount.");
+        }
+      } else if (!donationSelect.value) {
+        errors.push("Please select a donation amount.");
+      }
+
+      // Display Errors or Submit Form
+      if (errors.length > 0) {
+        event.preventDefault(); // Stop form submission
+        errorMessages.innerHTML = `<ul>${errors
+          .map((err) => `<li>${err}</li>`)
+          .join("")}</ul>`;
+      } else {
+        errorMessages.innerHTML = ""; // Clear errors if valid
+      }
+    });
+
   function updateSwiperTabsPagination(swiperInstance, customDots) {
     const activeIndex = swiperInstance.realIndex;
     customDots.forEach((dot, index) => {
