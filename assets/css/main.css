@@ -1322,7 +1322,7 @@ section,
 }
 
 .aboutus .values button {
-  background-color: var(--accent-color);
+  background-color: var(--contrast-color);
   color: var(--default-color);
   padding: 15px;
   font-size: 20px;
@@ -2446,6 +2446,7 @@ section,
   transition: opacity 0.3s ease;
 }
 
+
 .projectdetails .gallery .glightbox:hover img {
   opacity: 0.4;
 }
@@ -2560,12 +2561,12 @@ section,
 }
 
 .make-a-donation .donation-content h3 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .make-a-donation .donation-content p {
-  margin-top: 1rem;
-  line-height: 1.9rem;
+  margin-top: 2rem;
+  line-height: 2.1rem;
 }
 
 .make-a-donation .donation-content .donate-btn {
@@ -2959,6 +2960,7 @@ textarea:focus {
 .donation .donation-content p {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  line-height: 2.1rem;
 }
 
 .donation .donation-content .donate-btn {

@@ -85,17 +85,13 @@ const projects = [
       "Election day in the district of Keserwan - Jbeil: Enhancing youth participation",
     date: "",
     photos: {
-      main: "assets/img/allprojects/p31.jpg",
+      main: "assets/img/allprojects/p34.jpg",
       gallery: [
-        "assets/img/allprojects/p30.jpg",
+        "assets/img/allprojects/p34.jpg",
         "assets/img/allprojects/p31.jpg",
         "assets/img/allprojects/p32.jpg",
         "assets/img/allprojects/p33.jpg",
-        "assets/img/allprojects/p34.jpg",
-        "assets/img/allprojects/p35.jpg",
-        "assets/img/allprojects/p36.jpg",
-        "assets/img/allprojects/p37.jpg",
-        "assets/img/allprojects/p38.jpg",
+        "assets/img/allprojects/p30.jpg",
       ],
     },
     description: `The “Leadership for Sustainable Development – LSD” organized an election day to elect the “Youth parliament” with the support of the “Adyan” foundation. This project was launched by “Adyan” foundation months ago, and aims to promote the culture of democracy and youth participation in political life.
@@ -338,10 +334,7 @@ const projects = [
     date: "25 Jun 2024",
     photos: {
       main: "assets/img/allprojects/p151.jpg",
-      gallery: [
-        "assets/img/allprojects/p150.jpg",
-        "assets/img/allprojects/p152.jpg",
-      ],
+      gallery: ["assets/img/allprojects/p150.jpg"],
     },
     description: `As many LDF Fellows, Michel El Daccache described the Leaders for Democracy Fellowship (LDF) program as a turning point in his life. The LDF experience was a milestone for multiple and enriching opportunities that helped shape his growing career. The program allowed him to develop his civic action plan and transform it into a manual that helps people understand the technicalities and practicalities of voting in Lebanon especially after the new 2018 elections law.
     

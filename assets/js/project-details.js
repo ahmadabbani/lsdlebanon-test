@@ -123,5 +123,9 @@ if (project) {
   row.appendChild(colOtherProjects);
 } else {
   // Handle case where project is not found
-  document.querySelector(".row").innerHTML = "<p>Project not found.</p>";
+  document.querySelector(".row").innerHTML = `
+  <p style="font-size: 2rem; text-align: center; margin-top: 20px;">
+    Project not found.
+  </p>
+`;
 }

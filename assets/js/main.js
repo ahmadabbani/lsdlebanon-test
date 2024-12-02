@@ -262,8 +262,8 @@
    */
   const glightbox = GLightbox({
     selector: ".glightbox",
+    closeIcon: true,
   });
-
   /**
    * Init isotope layout and filters
    */
