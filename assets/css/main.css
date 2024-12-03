@@ -857,6 +857,55 @@ section,
 /*--------------------------------------------------------------
 # About 2 Section
 --------------------------------------------------------------*/
+@media (max-width: 1199px) {
+  .about .header-text {
+    top: 18%;
+    line-height: 5rem;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about .header-text {
+    line-height: 4rem;
+    font-size: 3.5rem;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-2 .img-wrap .img img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .header-text {
+    top: 15%;
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+
+  .about .btn-get-started {
+    padding: 8px 25px;
+    font-size: 14px;
+  }
+
+
+  .about p {
+    line-height: 1.4;
+    color: var(--default-color);
+  }
+}
+
+
 .about-2 .content {
   background-color: var(--surface-color);
   padding-top: 50px;
@@ -1253,9 +1302,15 @@ section,
 
 /*About Us Page*/
 /*aboutus section*/
+
+.aboutus {
+  padding-bottom: 80px;
+}
+
 .aboutus .img-box img {
   max-width: 100%;
   object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 
@@ -1349,14 +1404,15 @@ section,
 
 .aboutus .values .text-box {
   position: absolute !important;
-  top: 100% !important;
+  top: 95% !important;
   left: 0 !important;
-  z-index: 9999;
+  z-index: 99;
 }
 
 .aboutus .values .text-box .card {
-  border: 2px solid var(--default-color);
-  color: var(--default-color);
+  border: none;
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
 }
 
 .value-btn button[aria-expanded="false"] .material-symbols-outlined {
@@ -1367,6 +1423,7 @@ section,
 /* Rotated state for the span when expanded */
 .value-btn button[aria-expanded="true"] .material-symbols-outlined {
   transform: rotate(180deg);
+  color: var(--accent-color);
   transition: transform 0.3s ease;
 }
 
