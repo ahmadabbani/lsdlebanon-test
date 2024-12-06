@@ -51,7 +51,7 @@ if (program) {
   galleryDiv.classList.add("gallery");
 
   // Add images to the gallery
-  program.photos.main.forEach((imgSrc) => {
+  program.photos.gallery.forEach((imgSrc) => {
     const link = document.createElement("a");
     link.href = imgSrc; // For GLightbox
     link.classList.add("glightbox");
