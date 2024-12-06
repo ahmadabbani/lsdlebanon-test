@@ -1,8 +1,7 @@
 // Sample data for the programms
 const programms = [
   {
-    title:
-      "Leadership for Sustainable Development Workshop on “Political Participation” in Baabda",
+    title: "first program",
     date: "6 Mar 2022",
     photos: {
       main: "assets/img/allprojects/p01.jpg",
@@ -11,19 +10,35 @@ const programms = [
         "assets/img/allprojects/p01.jpg",
       ],
     },
-    description: `In cooperation with Adyan Foundation – Rashad Center for Good Governance,
-           Leadership for Sustainable Development NGO organized a training workshop on “Youth Political Participation in the 2022 Elections”.
-      The training workshop took place on the 6th of March 2022, in Yarzeh area – Baabda.
-       The target audience were more than 20 young men and women attendees, between the ages of 21 and 35,
-        from different districts of Mount Lebanon Governorate.
-      The workshop aimed to enable participants to launch awareness campaigns to motivate as many young people as possible to participate
-       in the upcoming parliamentary elections.
-      After the welcoming speech of the President of “Leadership for Sustainable Development” Michel Daccache,
-       the lecturers explained how to launch awareness campaigns. In the first part, lecturers identified the Basics of Awareness Campaigns, 
-       then in the second part dealt with The Greater Impact of the Awareness Campaign,
-        and finally they stressed the elements of the campaign and how to strategically plan for its launch.
-      Additionally, the director of the “Youth Parliament” project, Abdo Saad, at the Adyan Foundation, 
-      talked about his experience in this project, and the most important topics that awareness campaigns should focus on to answer to the fears of young people and the reasons for their non-participation in political life. This talk was followed by testimonies of number of deputies in the Youth Parliament who shared their experiences with the audience. In the last part of the workshop, the participants competed in groups, through launching their own awareness campaigns,
-       and the winning group qualified to compete with the winners from other regions in the upcoming activities.`,
+    description: `Human rights are rights inherent to all human beings, whatever our nationality, place of residence, sex, national or ethnic origin, color, religion, language, or any other status. We are all equally entitled to our human rights without discrimination. These rights are all interrelated, interdependent and indivisible.
+
+Universal human rights are often expressed and guaranteed by law, in the forms of treaties, customary international law, general principles and other sources of international law. International human rights law lays down obligations of Governments to act in certain ways or to refrain from certain acts, in order to promote and protect human rights and fundamental freedoms of individuals or groups.
+
+Human rights have become the moral language of today, the idiom in which we discuss our common humanity and weigh competing claims for resources, rights and protections.
+
+Are we promoting human rights and forgetting the human being?
+
+Therefore, the Human Rights Advocacy program seeks to promote the culture of human rights through a cumulative participatory process in which individuals, notably citizens, are empowered enough to become actors of change in their respective communities. The HRA program is based on an experiential learning and participatory approach through which the participant gets to experience and reflect on certain situations and then relate them to true-life situations they have been through as human beings.`,
+  },
+
+  {
+    title: "second program",
+    date: "6 Mar 2022",
+    photos: {
+      main: "assets/img/allprojects/p11.jpg",
+      gallery: [
+        "assets/img/allprojects/p11.jpg",
+        "assets/img/allprojects/p12.jpg",
+      ],
+    },
+    description: `Human rights are rights inherent to all human beings, whatever our nationality, place of residence, sex, national or ethnic origin, color, religion, language, or any other status. We are all equally entitled to our human rights without discrimination. These rights are all interrelated, interdependent and indivisible.
+
+Universal human rights are often expressed and guaranteed by law, in the forms of treaties, customary international law, general principles and other sources of international law. International human rights law lays down obligations of Governments to act in certain ways or to refrain from certain acts, in order to promote and protect human rights and fundamental freedoms of individuals or groups.
+
+Human rights have become the moral language of today, the idiom in which we discuss our common humanity and weigh competing claims for resources, rights and protections.
+
+Are we promoting human rights and forgetting the human being?
+
+Therefore, the Human Rights Advocacy program seeks to promote the culture of human rights through a cumulative participatory process in which individuals, notably citizens, are empowered enough to become actors of change in their respective communities. The HRA program is based on an experiential learning and participatory approach through which the participant gets to experience and reflect on certain situations and then relate them to true-life situations they have been through as human beings.`,
   },
 ];

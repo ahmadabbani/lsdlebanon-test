@@ -2751,44 +2751,46 @@ section,
 #project details
 **************************/
 
-.projectdetails {
+.projectdetails,
+.programdetails {
   padding-top: 0;
 }
 
-.projectdetails .main-img img {
+.main-img img {
   max-width: 100%;
   width: 100%;
   height: 400px;
   object-fit: cover;
 }
 
-.projectdetails .project-title {
+.project-title {
   padding: 35px 25px 0 35px;
 }
 
-.projectdetails .project-title h1 {
+.project-title h1 {
   font-size: 50px;
   margin-bottom: 1rem;
 }
 
-.projectdetails .project-title span {
+.project-title span {
   color: gray;
   font-weight: 700;
 }
 
+.programdetails .description,
 .projectdetails .description {
   padding-top: 2.5rem;
   font-size: 1.3rem;
   line-height: 2.2rem;
 }
 
-.projectdetails .gallery-container h2 {
+.gallery-container h2 {
   text-align: center;
   font-size: 45px;
   padding: 45px 0;
 }
 
-.projectdetails .gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2796,7 +2798,7 @@ section,
   row-gap: 25px;
 }
 
-.projectdetails .gallery img {
+.gallery img {
   width: 250px;
   height: 170px;
   object-fit: cover;
@@ -2804,11 +2806,11 @@ section,
   transition: opacity 0.3s ease;
 }
 
-.projectdetails .gallery .glightbox {
+.gallery .glightbox {
   position: relative;
 }
 
-.projectdetails .gallery .glightbox span {
+.gallery .glightbox span {
   position: absolute;
   opacity: 0;
   font-size: 35px;
@@ -2821,59 +2823,60 @@ section,
 }
 
 
-.projectdetails .gallery .glightbox:hover img {
+.gallery .glightbox:hover img {
   opacity: 0.4;
 }
 
-.projectdetails .gallery .glightbox:hover span {
+.gallery .glightbox:hover span {
   opacity: 1;
 }
 
-.projectdetails .project-list {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.projectdetails .other-projects {
+.other-projects {
   margin-top: 125px;
 }
 
+.programdetails h2,
 .projectdetails h2 {
   text-align: center;
   font-size: 45px;
   padding: 0 0 45px 0;
 }
 
-.projectdetails .project-list .related-project {
+.project-list .related-project {
   width: 350px;
   display: block;
   height: 370px;
 }
 
-.projectdetails .project-list .related-project img {
+.project-list .related-project img {
   object-fit: cover;
   max-width: 100%;
   width: 100%;
   height: 220px;
 }
 
-.projectdetails .project-list .related-project img:hover {
+.project-list .related-project img:hover {
   opacity: 0.8;
   transition: 0.3s;
 }
 
-.projectdetails .project-list .related-project h3 {
+.project-list .related-project h3 {
   font-size: 20px;
   padding-top: 0.5rem;
   margin-bottom: 5px;
 }
 
-.projectdetails .project-list .related-project h3:hover {
+.project-list .related-project h3:hover {
   color: var(--accent-color);
 }
 
-.projectdetails .project-list .related-project p {
+.project-list .related-project p {
   color: var(--default-color);
   line-height: normal;
 }
