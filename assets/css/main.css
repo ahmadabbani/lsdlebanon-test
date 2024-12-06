@@ -829,7 +829,10 @@ section,
 
 @media (min-width: 1200px) {
   .about-2 .img-wrap .img img {
-    height: 400px;
+    height: 375px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -979,6 +982,13 @@ section,
   background-color: var(--surface-color);
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.about-2 .img-wrap .img img {
+  height: 400px;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .about-2 .content-subtitle {
@@ -2684,38 +2694,38 @@ section,
 # Blog Posts 2 Section
 --------------------------------------------------------------*/
 
-.allprojects .project-img img {
+.project-img img {
   width: 100%;
   max-width: 100%;
   height: 250px;
 }
 
-.allprojects .project-img img:hover {
+.project-img img:hover {
   opacity: 0.8;
   transition: 0.3s;
 }
 
-.allprojects .title {
+.title {
   font-size: 20px;
   font-weight: 700;
   margin: 12px 0 10px 0;
 }
 
-.allprojects .title a {
+.title a {
   color: var(--heading-color);
   transition: 0.3s;
 }
 
-.allprojects .title a:hover {
+.title a:hover {
   color: var(--accent-color);
 }
 
-.allprojects .meta-top {
+.meta-top {
   margin-top: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.allprojects .meta-top ul {
+.meta-top ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -2724,13 +2734,13 @@ section,
   margin: 0;
 }
 
-.allprojects .meta-top i {
+.meta-top i {
   font-size: 24px;
   line-height: 0;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
-.allprojects .meta-top a {
+.meta-top a {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-size: 14px;
   display: inline-block;

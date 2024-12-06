@@ -348,8 +348,8 @@ const projects = [
     title: "LSD Voter’s Guide",
     date: "",
     photos: {
-      main: "assets/img/allprojects/p161.jpg",
-      gallery: ["assets/img/allprojects/p160.jpg"],
+      main: "assets/img/allprojects/p160.jpg",
+      gallery: ["assets/img/allprojects/p161.png"],
     },
     description: `Since the Taif Agreement, the Lebanese electoral law is based on the majority system. This law that suffers from several gaps and flaws, set the development of democracy and political life in an unstable condition and does not provide opportunities for proper participation and representation.
     
