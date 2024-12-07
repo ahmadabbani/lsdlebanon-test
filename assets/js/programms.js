@@ -32,7 +32,7 @@ function displayProgramms() {
 
     // Create the image element
     const img = document.createElement("img");
-    img.src = program.photos.gallery[0];
+    img.src = program.photos.main;
     img.alt = program.title;
     img.classList.add("img-fluid");
 

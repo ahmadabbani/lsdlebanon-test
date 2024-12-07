@@ -11,7 +11,7 @@ if (program) {
   row.classList.add("row-details");
   // Create the main image container
   const colMainImg = document.createElement("div");
-  colMainImg.classList.add("col-6", "main-img");
+  colMainImg.classList.add("col-md-6", "main-img");
   const mainImg = document.createElement("img");
   mainImg.src = program.photos.main;
   mainImg.alt = program.title;
@@ -20,7 +20,7 @@ if (program) {
 
   // Create the title and date container
   const colTitleDate = document.createElement("div");
-  colTitleDate.classList.add("col-6", "project-title");
+  colTitleDate.classList.add("col-md-6", "project-title");
   const title = document.createElement("h1");
   title.textContent = program.title;
   const date = document.createElement("span");
@@ -36,38 +36,6 @@ if (program) {
   description.textContent = program.description;
   colDescription.appendChild(description);
   row.appendChild(colDescription);
-
-  // Create the gallery container
-  const colGallery = document.createElement("div");
-  colGallery.classList.add("col-12", "gallery-container");
-
-  // Create and add the <h2> element
-  const galleryTitle = document.createElement("h2");
-  galleryTitle.textContent = "Photos";
-  colGallery.appendChild(galleryTitle);
-
-  // Create the gallery div
-  const galleryDiv = document.createElement("div");
-  galleryDiv.classList.add("gallery");
-
-  // Add images to the gallery
-  program.photos.gallery.forEach((imgSrc) => {
-    const link = document.createElement("a");
-    link.href = imgSrc; // For GLightbox
-    link.classList.add("glightbox");
-    const img = document.createElement("img");
-    img.src = imgSrc;
-    img.alt = program.title;
-    const span = document.createElement("span");
-    span.classList.add("material-symbols-outlined");
-    span.textContent = "add_circle";
-    link.appendChild(img);
-    link.appendChild(span);
-    galleryDiv.appendChild(link);
-  });
-
-  colGallery.appendChild(galleryDiv);
-  row.appendChild(colGallery);
 
   // Related projects container
   const colOtherProjects = document.createElement("div");

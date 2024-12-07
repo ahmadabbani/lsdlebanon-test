@@ -11,7 +11,7 @@ if (project) {
   row.classList.add("row-details");
   // Create the main image container
   const colMainImg = document.createElement("div");
-  colMainImg.classList.add("col-6", "main-img");
+  colMainImg.classList.add("col-md-6", "main-img");
   const mainImg = document.createElement("img");
   mainImg.src = project.photos.main;
   mainImg.alt = project.title;
@@ -20,7 +20,7 @@ if (project) {
 
   // Create the title and date container
   const colTitleDate = document.createElement("div");
-  colTitleDate.classList.add("col-6", "project-title");
+  colTitleDate.classList.add("col-md-6", "project-title");
   const title = document.createElement("h1");
   title.textContent = project.title;
   const date = document.createElement("span");
