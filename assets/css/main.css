@@ -889,9 +889,6 @@ section,
     font-size: 15px;
   }
 
-  .about .hero-desc {
-    /* margin-bottom: 0.5rem;*/
-  }
 }
 
 @media (max-width: 585px) {
