@@ -888,7 +888,6 @@ section,
   .about h1 .span1 {
     font-size: 15px;
   }
-
 }
 
 @media (max-width: 585px) {
@@ -3071,8 +3070,7 @@ section,
   .programdetails .description,
   .projectdetails .description {
     padding-top: 1.1rem;
-    line-height: 1.4rem;
-    font-size: 0.9rem;
+    line-height: 1.5rem;
   }
 
   .gallery-container h2 {
