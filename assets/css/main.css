@@ -1070,6 +1070,22 @@ section,
   }
 }
 
+
+@media (max-width: 575px) {
+  .about-2 .btn-get-started {
+    padding: 12px 18px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 430px) {
+  .about-2 .btn-get-started {
+    padding: 10px 14px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+
 /*--------------------------------------------------------------
 # projects Section
 --------------------------------------------------------------*/
@@ -1218,14 +1234,15 @@ section,
 
   .projects .allprojects-btn {
     padding: 12px 18px;
+    font-size: 15px;
   }
 
   .carousel-indicators {
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
 
   .projects .mg-top {
-    margin-top: 30px;
+    margin-top: 65px;
   }
 
 }
@@ -1240,23 +1257,18 @@ section,
     font-size: 15px;
   }
 
-  .carousel-indicators {
-    transform: translateY(35px);
-  }
-
   .projects .mg-top {
-    margin-top: 28px;
+    margin-top: 50px;
   }
 
   .projects .allprojects-btn {
     padding: 10px 14px;
+    font-size: 14px;
   }
 }
 
 
 /*connect section*/
-
-
 .connect .form-control {
   width: 100%;
   border: none;
@@ -1981,6 +1993,29 @@ section,
 
 .blog-posts .allprogramms-btn:hover img {
   transform: translateX(5px) translateZ(0);
+}
+
+
+@media (max-width: 575px) {
+  .blog-posts .allprogramms-btn {
+    padding: 12px 18px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 430px) {
+  .blog-posts .section-title {
+    padding-bottom: 25px;
+  }
+
+  .blog-posts {
+    padding-top: 80px;
+  }
+
+  .blog-posts .allprogramms-btn {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
 }
 
 /*--------------------------------------------------------------
