@@ -42,7 +42,7 @@ if (program) {
   colOtherProjects.classList.add("col-12", "other-projects");
 
   const otherProjectsTitle = document.createElement("h2");
-  otherProjectsTitle.textContent = "Other Projects";
+  otherProjectsTitle.textContent = "Other programms";
   colOtherProjects.appendChild(otherProjectsTitle);
 
   const otherProjectsDiv = document.createElement("div");
