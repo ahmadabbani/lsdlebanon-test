@@ -783,9 +783,7 @@ section,
   height: 65px;
 }
 
-.about .hero-img {
-  border-radius: 12px;
-}
+.about .hero-img {}
 
 .about .header-img {
   position: relative;
@@ -914,6 +912,7 @@ section,
 }
 
 @media (max-width: 475px) {
+
   .about .header-text {
     font-size: 1.5rem;
     line-height: 1.9rem;
@@ -947,6 +946,7 @@ section,
   .about .header-text {
     font-size: 1.2rem;
     line-height: 1.7rem;
+    top: 12%;
   }
 
   .about .hero-heading {

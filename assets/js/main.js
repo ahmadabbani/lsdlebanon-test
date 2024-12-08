@@ -68,11 +68,14 @@
       link.classList.remove("active");
 
       // Handle special case for home page
-      if (currentPath === "/" && link.getAttribute("href") === "/") {
+      if (
+        currentPath === "/index.html" &&
+        link.getAttribute("href") === "index.html"
+      ) {
         link.classList.add("active");
       }
       // For other links, check if the current path matches the link's href exactly
-      else if (currentPath === link.getAttribute("href")) {
+      else if (currentPath === "/" + link.getAttribute("href")) {
         link.classList.add("active");
       }
     });
