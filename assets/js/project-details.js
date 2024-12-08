@@ -68,6 +68,11 @@ if (project) {
 
   colGallery.appendChild(galleryDiv);
   row.appendChild(colGallery);
+  setTimeout(() => {
+    const lightbox = GLightbox({
+      selector: ".glightbox", // Ensure GLightbox is applied to the elements with this class
+    });
+  }, 50); // 50ms delay to allow the DOM to fully update
 
   // Related projects container
   const colOtherProjects = document.createElement("div");

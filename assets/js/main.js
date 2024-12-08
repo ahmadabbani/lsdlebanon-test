@@ -60,21 +60,42 @@
   document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll("#navmenu ul li a");
 
-    // Get the current URL path
+    // Get the current URL path (without query params)
     const currentPath = window.location.pathname;
 
     navLinks.forEach((link) => {
       // Remove 'active' class from all links
       link.classList.remove("active");
 
-      // Handle special case for home page
+      // Get the link's href (without query params)
+      const linkHref = new URL(link.href).pathname;
+
+      // Handle the 'Home' page
       if (
         currentPath === "/index.html" &&
         link.getAttribute("href") === "index.html"
       ) {
         link.classList.add("active");
       }
-      // For other links, check if the current path matches the link's href exactly
+      // Handle the 'Projects' page and any project-related pages (e.g., project-details.html)
+      else if (
+        (currentPath === "/projects.html" &&
+          link.getAttribute("href") === "projects.html") ||
+        (currentPath.startsWith("/project-details.html") &&
+          link.getAttribute("href") === "projects.html")
+      ) {
+        link.classList.add("active");
+      }
+      // Handle the 'Programms' page and any program-related pages (e.g., program-details.html)
+      else if (
+        (currentPath === "/programms.html" &&
+          link.getAttribute("href") === "programms.html") ||
+        (currentPath.startsWith("/program-details.html") &&
+          link.getAttribute("href") === "programms.html")
+      ) {
+        link.classList.add("active");
+      }
+      // Handle other pages (About, Contact, etc.)
       else if (currentPath === "/" + link.getAttribute("href")) {
         link.classList.add("active");
       }
@@ -263,7 +284,7 @@
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
+  const lightbox = GLightbox({
     selector: ".glightbox",
     closeIcon: true,
   });
