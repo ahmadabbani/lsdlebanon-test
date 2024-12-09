@@ -2,6 +2,107 @@
 const projects = [
   {
     title:
+      "Establishment of the Tannourine Youth Council to Strengthen Dialogue and Collaboration",
+    date: "25 Oct 2024",
+    photos: {
+      main: "assets/img/allprojects/p151.jpg",
+      gallery: ["assets/img/allprojects/p190.JPEG"],
+    },
+    description: `Following a productive town hall meeting between the Tannourine Municipality, represented by its mayor, and local youth, the “Tannourine Youth Council” was established to strengthen dialogue and build bridges between the municipality and the community’s young people. This council aims to empower youth in local decision-making and enhance their contributions to sustainable and developmental efforts, ensuring a brighter future founded on collaborative action and giving youth a strong voice within a structured institutional framework.`,
+  },
+  {
+    title:
+      " A Cedar Tree Symbolizing the Tannourine Youth Council's Commitment to Local Development",
+    date: "13 Sep 2024",
+    photos: {
+      main: "assets/img/allprojects/p151.jpg",
+      gallery: ["assets/img/allprojects/p150.jpg"],
+    },
+    description: `A new cedar tree in the Tannourine Cedar Forest Nature Reserve, after a day of hiking in nature and discussing local development with the youth.
+This cedar tree represents the Youth Council in Tannourine, marking the beginning of a journey with the youth for the good of the region and local development.`,
+  },
+  {
+    title:
+      "Launching Training on Fundraising and Proposal Writing for Civil Society Organizations",
+    date: "29 Jul 2024",
+    photos: {
+      main: "assets/img/allprojects/p151.jpg",
+      gallery: ["assets/img/allprojects/p150.jpg"],
+    },
+    description: `Today, we kicked off training for civil society organizations on fundraising for their projects and writing proposals for various initiatives. This training aims to support and assist our partners in connecting with new donors to secure funding for new projects.
+`,
+  },
+
+  {
+    title: "MEPI Alum Develops an Educational Manual on Voting in Lebanon",
+    date: "25 Jun 2024",
+    photos: {
+      main: "assets/img/allprojects/p151.jpg",
+      gallery: ["assets/img/allprojects/p150.jpg"],
+    },
+    description: `As many LDF Fellows, Michel El Daccache described the Leaders for Democracy Fellowship (LDF) program as a turning point in his life. The LDF experience was a milestone for multiple and enriching opportunities that helped shape his growing career. The program allowed him to develop his civic action plan and transform it into a manual that helps people understand the technicalities and practicalities of voting in Lebanon especially after the new 2018 elections law.
+    
+    During Michel’s participation in the U.S. LDF program’s professional practicum component, he was placed with IFES where he developed and administered a survey about the engagement of Lebanese citizens in politics. This survey was a stepping stone towards his CAP. In 12 days, he reached 550 respondents which surprised IFES and helped increase his credibility with the organization.
+    
+    With the experience gained through LDF, Michel used his NGO, the Leadership for Sustainable Development, as an outlet to give trainings in two Lebanese villages (Hayata and Ghbaleh). The aim of the trainings was to simplify and clarify the new electoral voting system. To his surprise, the result of his training was easily captured in the election turnout where there was an 80% voter turnout in these two villages while Lebanon in total saw a 49.2% voting turnout. Moreover, one of these two villages had a 0-canceled vote while the other village had only 20 canceled votes.  These numbers are minuscule compared to the 35,000 canceled votes that Lebanon saw after the election results were announced. This proved that his manual and trainings helped people understand the new electoral law better and vote accordingly.
+    
+    Michel believes in creating a generation of leaders and elevating a positive influence on the societal and political level. Michel’s future plans consist of working on government accountability. He plans on creating an online platform that will give the citizens the possibility to hold accountable the newly elected candidates. In the meantime he continues to motivate youth and engage them in their communities.`,
+  },
+  {
+    title:
+      "Values and Justice... Discussion Sessions at the Lebanese University",
+    date: "9 May 2024",
+    photos: {
+      main: "assets/img/allprojects/p151.jpg",
+      gallery: ["assets/img/allprojects/p150.jpg"],
+    },
+    description: `The “Leadership for Sustainable Development” Association organized discussion sessions at the Faculty of Law, Political, and Administrative Sciences at the Lebanese University - Second Branch in Jal El Dib.  
+
+The sessions were held in collaboration with the faculty and supported by the Alumni Network of the Middle East Partnership Initiative (MEPI). They consisted of four meetings that included current and former university deans, directors, faculty members, and a large number of students.  
+
+In the first session, Mr. Joe Hammoura moderated a discussion with Mr. Antoine Saad, Director of Sa'er Al Mashreq Publishing House, and Mr. Melkar Khoury, Director of Central Research House for Consulting and Studies. The session was titled, "The Lebanese Experience: Absence of Values or Absence of Vision?"  
+
+The second session featured Mr. Michel Daccache, Executive Director of the “Leadership for Sustainable Development” Association, Mr. Youssef Yamin from Berytech, Mr. Pierre Baaklini, Founder of Lebanese Waste Management, and Mr. Rami Sbeih, Founder of PlasticLab. They provided brief explanations of their work and initiatives, inviting students to collaborate with them in the future.  
+
+The third session included former Minister of Social Affairs Rashid Derbas, Beirut Bar Association President Fadi Al-Masri, and Dr. Issam Mubarak. They addressed issues within the Lebanese judicial and legal systems and discussed potential reforms.  
+
+The event concluded with an interactive lecture delivered by Mr. Rami Daccache, Executive Director of Transformation Lab, who guided students on how to set and achieve their goals.  
+
+The sessions took place at the library of the Faculty of Law, Political, and Administrative Sciences, where the faculty’s director, Dr. Mona Al-Basha, and members of the teaching staff presented honorary shields to the speakers.   `,
+  },
+  {
+    title: "Values and Justice: Panel discussions at the Lebanese University",
+    date: "7 May 2024",
+    photos: {
+      main: "assets/img/allprojects/p181.jpeg",
+      gallery: [
+        "assets/img/allprojects/p180.jpeg",
+        "assets/img/allprojects/p182.jpeg",
+        "assets/img/allprojects/p183.jpeg",
+        "assets/img/allprojects/p184.jpeg",
+      ],
+    },
+    description: `The “Leadership for Sustainable Development” NGO organized panel discussion sessions in the Faculty of Law, Political and Administrative Sciences at the Lebanese University – II in Jal El Dib.
+    In collaboration with the faculty and with the support of the U.S.-Middle East Partnership Initiative (MEPI), organized four meetings attended by current and former university deans, current and former university directors, faculty members, and students.
+    In the first panel discussion moderator by Joe Hammoura, the director of “Sa’er Al-Mashreq” publishing house Antoine Saad, and the president of the Research House Initiative for Consultations and Studies and Melkar El Khoury presented their opinions on Absence of Values and strategic vision in Lebanon focusing on the root causes of the current situation in the country.
+    The second panel discussion included Michel Daccache, the Executive Director of “Leadership for Sustainable Development” NGO, Youssif Yamine from Berytech Foundation, Pierre Baaklini, founder of Lebanese Waste Management Company, and Rami Sbeih, founder of PlasticLab. They gave brief explanations of their work, initiatives and success stories, inviting students to collaborate with them in the future.
+    The third panel discussion featured the former Minister of Social Affairs, Rashid Derbas, the Beirut Bar Association President Fadi Al-Masri, and Dr. Issam Mubarak, addressing aspects of the dysfunction related to the Lebanese judicial and legal system and how to modernize it.
+    The event concluded with an interactive capacity building workshop delivered by the Executive Director of Transformation Lab, Rami Daccache, on how to set and achieve goals for students.
+    It’s worth mentioning that the event took place in the library of the Faculty of Law, Political and Administrative Sciences, where the dean of the faculty, Dr. Mona Al-Basha, and members of the faculty presented commemorative trophies to the speakers.`,
+  },
+  {
+    title:
+      "Panels discussion with women activists running for municipal elections from Bekaa and Jbeil",
+    date: "4 Mar 2024",
+    photos: {
+      main: "assets/img/allprojects/p151.jpg",
+      gallery: ["assets/img/allprojects/p150.jpg"],
+    },
+    description: `Panels discussion with women activists running for municipal elections from Bekaa and Jbeil.
+Several success stories and experiences have been shared that provide hope for the coming future.`,
+  },
+  {
+    title:
       "Leadership for Sustainable Development Workshop on “Political Participation” in Baabda",
     date: "6 Mar 2022",
     photos: {
@@ -329,21 +430,7 @@ const projects = [
         they tackled the election process in details and presenting the
          “Voter’s Guide” initiative prepared by the NGO to facilitate the understanding of the law.`,
   },
-  {
-    title: "MEPI Alum Develops an Educational Manual on Voting in Lebanon",
-    date: "25 Jun 2024",
-    photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p150.jpg"],
-    },
-    description: `As many LDF Fellows, Michel El Daccache described the Leaders for Democracy Fellowship (LDF) program as a turning point in his life. The LDF experience was a milestone for multiple and enriching opportunities that helped shape his growing career. The program allowed him to develop his civic action plan and transform it into a manual that helps people understand the technicalities and practicalities of voting in Lebanon especially after the new 2018 elections law.
-    
-    During Michel’s participation in the U.S. LDF program’s professional practicum component, he was placed with IFES where he developed and administered a survey about the engagement of Lebanese citizens in politics. This survey was a stepping stone towards his CAP. In 12 days, he reached 550 respondents which surprised IFES and helped increase his credibility with the organization.
-    
-    With the experience gained through LDF, Michel used his NGO, the Leadership for Sustainable Development, as an outlet to give trainings in two Lebanese villages (Hayata and Ghbaleh). The aim of the trainings was to simplify and clarify the new electoral voting system. To his surprise, the result of his training was easily captured in the election turnout where there was an 80% voter turnout in these two villages while Lebanon in total saw a 49.2% voting turnout. Moreover, one of these two villages had a 0-canceled vote while the other village had only 20 canceled votes.  These numbers are minuscule compared to the 35,000 canceled votes that Lebanon saw after the election results were announced. This proved that his manual and trainings helped people understand the new electoral law better and vote accordingly.
-    
-    Michel believes in creating a generation of leaders and elevating a positive influence on the societal and political level. Michel’s future plans consist of working on government accountability. He plans on creating an online platform that will give the citizens the possibility to hold accountable the newly elected candidates. In the meantime he continues to motivate youth and engage them in their communities.`,
-  },
+
   {
     title: "LSD Voter’s Guide",
     date: "",
@@ -387,25 +474,5 @@ const projects = [
     The four-and-a-half-day training included theoretical information and practical applications, in sessions led by specialized trainers, on “Problems of Inclusive Citizenship and Diversity”, “Identity and Affiliation”, “Religious Freedom in Constitutions” and “Religious Attitudes of Religious Freedom” and the public domain and models of citizenship, in addition to other topics related to the theme.
     
     The Institute for Citizenship and Diversity Management, in partnership with the University of the “Brothers Ifrane” in Morocco, will organize a training workshop for Arab and African trainers on Citizenship for Cultural and Religious Diversity from 11 to 15 September 2017 in Morocco. Two training workshops will be held for trainers from Iraq and Jordan Between October and November 2017.`,
-  },
-  {
-    title: "Values and Justice: Panel discussions at the Lebanese University",
-    date: "7 May 2024",
-    photos: {
-      main: "assets/img/allprojects/p181.jpeg",
-      gallery: [
-        "assets/img/allprojects/p180.jpeg",
-        "assets/img/allprojects/p182.jpeg",
-        "assets/img/allprojects/p183.jpeg",
-        "assets/img/allprojects/p184.jpeg",
-      ],
-    },
-    description: `The “Leadership for Sustainable Development” NGO organized panel discussion sessions in the Faculty of Law, Political and Administrative Sciences at the Lebanese University – II in Jal El Dib.
-    In collaboration with the faculty and with the support of the U.S.-Middle East Partnership Initiative (MEPI), organized four meetings attended by current and former university deans, current and former university directors, faculty members, and students.
-    In the first panel discussion moderator by Joe Hammoura, the director of “Sa’er Al-Mashreq” publishing house Antoine Saad, and the president of the Research House Initiative for Consultations and Studies and Melkar El Khoury presented their opinions on Absence of Values and strategic vision in Lebanon focusing on the root causes of the current situation in the country.
-    The second panel discussion included Michel Daccache, the Executive Director of “Leadership for Sustainable Development” NGO, Youssif Yamine from Berytech Foundation, Pierre Baaklini, founder of Lebanese Waste Management Company, and Rami Sbeih, founder of PlasticLab. They gave brief explanations of their work, initiatives and success stories, inviting students to collaborate with them in the future.
-    The third panel discussion featured the former Minister of Social Affairs, Rashid Derbas, the Beirut Bar Association President Fadi Al-Masri, and Dr. Issam Mubarak, addressing aspects of the dysfunction related to the Lebanese judicial and legal system and how to modernize it.
-    The event concluded with an interactive capacity building workshop delivered by the Executive Director of Transformation Lab, Rami Daccache, on how to set and achieve goals for students.
-    It’s worth mentioning that the event took place in the library of the Faculty of Law, Political and Administrative Sciences, where the dean of the faculty, Dr. Mona Al-Basha, and members of the faculty presented commemorative trophies to the speakers.`,
   },
 ];
