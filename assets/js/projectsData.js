@@ -5,8 +5,18 @@ const projects = [
       "Establishment of the Tannourine Youth Council to Strengthen Dialogue and Collaboration",
     date: "25 Oct 2024",
     photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p190.JPEG"],
+      main: "assets/img/allprojects/p191.jpg",
+      gallery: [
+        "assets/img/allprojects/p190.jpg",
+        "assets/img/allprojects/p191.jpg",
+        "assets/img/allprojects/p192.jpg",
+        "assets/img/allprojects/p193.jpg",
+        "assets/img/allprojects/p194.jpg",
+        "assets/img/allprojects/p195.jpg",
+        "assets/img/allprojects/p196.jpg",
+        "assets/img/allprojects/p197.jpg",
+        "assets/img/allprojects/p198.jpg",
+      ],
     },
     description: `Following a productive town hall meeting between the Tannourine Municipality, represented by its mayor, and local youth, the “Tannourine Youth Council” was established to strengthen dialogue and build bridges between the municipality and the community’s young people. This council aims to empower youth in local decision-making and enhance their contributions to sustainable and developmental efforts, ensuring a brighter future founded on collaborative action and giving youth a strong voice within a structured institutional framework.`,
   },
@@ -15,8 +25,13 @@ const projects = [
       " A Cedar Tree Symbolizing the Tannourine Youth Council's Commitment to Local Development",
     date: "13 Sep 2024",
     photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p150.jpg"],
+      main: "assets/img/allprojects/p201.png",
+      gallery: [
+        "assets/img/allprojects/p200.png",
+        "assets/img/allprojects/p201.png",
+        "assets/img/allprojects/p202.png",
+        "assets/img/allprojects/p203.png",
+      ],
     },
     description: `A new cedar tree in the Tannourine Cedar Forest Nature Reserve, after a day of hiking in nature and discussing local development with the youth.
 This cedar tree represents the Youth Council in Tannourine, marking the beginning of a journey with the youth for the good of the region and local development.`,
@@ -26,11 +41,18 @@ This cedar tree represents the Youth Council in Tannourine, marking the beginnin
       "Launching Training on Fundraising and Proposal Writing for Civil Society Organizations",
     date: "29 Jul 2024",
     photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p150.jpg"],
+      main: "assets/img/allprojects/p211.jpg",
+      gallery: [
+        "assets/img/allprojects/p210.jpg",
+        "assets/img/allprojects/p212.jpg",
+        "assets/img/allprojects/p213.jpg",
+        "assets/img/allprojects/p214.jpg",
+        "assets/img/allprojects/p215.jpg",
+        "assets/img/allprojects/p216.jpg",
+        "assets/img/allprojects/p217.jpg",
+      ],
     },
-    description: `Today, we kicked off training for civil society organizations on fundraising for their projects and writing proposals for various initiatives. This training aims to support and assist our partners in connecting with new donors to secure funding for new projects.
-`,
+    description: `Today, we kicked off training for civil society organizations on fundraising for their projects and writing proposals for various initiatives. This training aims to support and assist our partners in connecting with new donors to secure funding for new projects.`,
   },
 
   {
@@ -53,8 +75,17 @@ This cedar tree represents the Youth Council in Tannourine, marking the beginnin
       "Values and Justice... Discussion Sessions at the Lebanese University",
     date: "9 May 2024",
     photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p150.jpg"],
+      main: "assets/img/allprojects/p181.jpg",
+      gallery: [
+        "assets/img/allprojects/p180.jpg",
+        "assets/img/allprojects/p181.jpg",
+        "assets/img/allprojects/p182.jpg",
+        "assets/img/allprojects/p183.jpg",
+        "assets/img/allprojects/p184.jpg",
+        "assets/img/allprojects/p185.jpg",
+        "assets/img/allprojects/p186.jpg",
+        "assets/img/allprojects/p187.jpg",
+      ],
     },
     description: `The “Leadership for Sustainable Development” Association organized discussion sessions at the Faculty of Law, Political, and Administrative Sciences at the Lebanese University - Second Branch in Jal El Dib.  
 
@@ -70,33 +101,20 @@ The event concluded with an interactive lecture delivered by Mr. Rami Daccache, 
 
 The sessions took place at the library of the Faculty of Law, Political, and Administrative Sciences, where the faculty’s director, Dr. Mona Al-Basha, and members of the teaching staff presented honorary shields to the speakers.   `,
   },
-  {
-    title: "Values and Justice: Panel discussions at the Lebanese University",
-    date: "7 May 2024",
-    photos: {
-      main: "assets/img/allprojects/p181.jpeg",
-      gallery: [
-        "assets/img/allprojects/p180.jpeg",
-        "assets/img/allprojects/p182.jpeg",
-        "assets/img/allprojects/p183.jpeg",
-        "assets/img/allprojects/p184.jpeg",
-      ],
-    },
-    description: `The “Leadership for Sustainable Development” NGO organized panel discussion sessions in the Faculty of Law, Political and Administrative Sciences at the Lebanese University – II in Jal El Dib.
-    In collaboration with the faculty and with the support of the U.S.-Middle East Partnership Initiative (MEPI), organized four meetings attended by current and former university deans, current and former university directors, faculty members, and students.
-    In the first panel discussion moderator by Joe Hammoura, the director of “Sa’er Al-Mashreq” publishing house Antoine Saad, and the president of the Research House Initiative for Consultations and Studies and Melkar El Khoury presented their opinions on Absence of Values and strategic vision in Lebanon focusing on the root causes of the current situation in the country.
-    The second panel discussion included Michel Daccache, the Executive Director of “Leadership for Sustainable Development” NGO, Youssif Yamine from Berytech Foundation, Pierre Baaklini, founder of Lebanese Waste Management Company, and Rami Sbeih, founder of PlasticLab. They gave brief explanations of their work, initiatives and success stories, inviting students to collaborate with them in the future.
-    The third panel discussion featured the former Minister of Social Affairs, Rashid Derbas, the Beirut Bar Association President Fadi Al-Masri, and Dr. Issam Mubarak, addressing aspects of the dysfunction related to the Lebanese judicial and legal system and how to modernize it.
-    The event concluded with an interactive capacity building workshop delivered by the Executive Director of Transformation Lab, Rami Daccache, on how to set and achieve goals for students.
-    It’s worth mentioning that the event took place in the library of the Faculty of Law, Political and Administrative Sciences, where the dean of the faculty, Dr. Mona Al-Basha, and members of the faculty presented commemorative trophies to the speakers.`,
-  },
+
   {
     title:
       "Panels discussion with women activists running for municipal elections from Bekaa and Jbeil",
     date: "4 Mar 2024",
     photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p150.jpg"],
+      main: "assets/img/allprojects/p221.jpg",
+      gallery: [
+        "assets/img/allprojects/p220.jpg",
+        "assets/img/allprojects/p221.jpg",
+        "assets/img/allprojects/p222.jpg",
+        "assets/img/allprojects/p223.jpg",
+        "assets/img/allprojects/p224.jpg",
+      ],
     },
     description: `Panels discussion with women activists running for municipal elections from Bekaa and Jbeil.
 Several success stories and experiences have been shared that provide hope for the coming future.`,

@@ -882,6 +882,14 @@ section,
 }
 
 @media (max-width:992px) {
+  .about {
+    padding-bottom: 0px;
+  }
+
+  .about .container {
+    padding-top: 3rem;
+  }
+
   .about .header-text {
     line-height: 4rem;
     font-size: 3rem;
@@ -891,6 +899,10 @@ section,
 @media (max-width: 768px) {
   .about {
     padding-bottom: 0;
+  }
+
+  .about .container {
+    padding-top: 2rem;
   }
 
   .about .header-text {
@@ -952,6 +964,9 @@ section,
 }
 
 @media (max-width: 475px) {
+  .about .container {
+    padding-top: 1.5rem;
+  }
 
   .about .header-text {
     font-size: 1.5rem;
@@ -1157,6 +1172,9 @@ section,
 
 .projects .carousel-item .card img {
   height: 500px;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
 }
 
 .projects .text-body-secondary {
