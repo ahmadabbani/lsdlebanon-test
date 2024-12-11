@@ -16,6 +16,7 @@ function displayProgramms() {
     // Create the column div
     const colDiv = document.createElement("div");
     colDiv.classList.add("col-lg-4", "col-md-6");
+    colDiv.setAttribute("data-aos", "fade-up");
 
     // Create the article element
     const article = document.createElement("article");

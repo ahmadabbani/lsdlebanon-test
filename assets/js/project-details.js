@@ -12,6 +12,7 @@ if (project) {
   // Create the main image container
   const colMainImg = document.createElement("div");
   colMainImg.classList.add("col-md-6", "main-img");
+  colMainImg.setAttribute("data-aos", "fade-right");
   const mainImg = document.createElement("img");
   mainImg.src = project.photos.main;
   mainImg.alt = project.title;
@@ -21,6 +22,7 @@ if (project) {
   // Create the title and date container
   const colTitleDate = document.createElement("div");
   colTitleDate.classList.add("col-md-6", "project-title");
+  colTitleDate.setAttribute("data-aos", "fade-left");
   const title = document.createElement("h1");
   title.textContent = project.title;
   const date = document.createElement("span");
@@ -32,6 +34,7 @@ if (project) {
   // Create the description container
   const colDescription = document.createElement("div");
   colDescription.classList.add("col-12", "description");
+  colDescription.setAttribute("data-aos", "fade-up");
   const description = document.createElement("p");
   description.textContent = project.description;
   colDescription.appendChild(description);
@@ -44,6 +47,7 @@ if (project) {
   // Create and add the <h2> element
   const galleryTitle = document.createElement("h2");
   galleryTitle.textContent = "Photos";
+  galleryTitle.setAttribute("data-aos", "fade-up");
   colGallery.appendChild(galleryTitle);
 
   // Create the gallery div
@@ -55,6 +59,7 @@ if (project) {
     const link = document.createElement("a");
     link.href = imgSrc; // For GLightbox
     link.classList.add("glightbox");
+    link.setAttribute("data-aos", "fade-up");
     const img = document.createElement("img");
     img.src = imgSrc;
     img.alt = project.title;
@@ -80,6 +85,7 @@ if (project) {
 
   const otherProjectsTitle = document.createElement("h2");
   otherProjectsTitle.textContent = "Other Projects";
+  otherProjectsTitle.setAttribute("data-aos", "fade-up");
   colOtherProjects.appendChild(otherProjectsTitle);
 
   const otherProjectsDiv = document.createElement("div");
@@ -90,6 +96,7 @@ if (project) {
     .forEach((relatedProject) => {
       const projectContainer = document.createElement("div");
       projectContainer.classList.add("related-project");
+      projectContainer.setAttribute("data-aos", "fade-up");
 
       // Create a link for the image
       const imgLink = document.createElement("a");
