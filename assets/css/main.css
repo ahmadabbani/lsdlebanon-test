@@ -1454,11 +1454,11 @@ section,
   cursor: pointer;
   /*box-shadow: 0 3px 8px var(--default-color);*/
   box-shadow: 6px 6px 0px var(--default-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .location .info:hover {
-  transform: translateY(8px);
+  transform: translateY(8px) !important;
   box-shadow: 6px -8px 0px var(--default-color);
 }
 
@@ -1715,7 +1715,7 @@ section,
   cursor: pointer;
   /*box-shadow: 0 3px 8px var(--default-color);*/
   box-shadow: 6px -6px 0px var(--default-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 @media (max-width: 419.98px) {
@@ -1729,7 +1729,7 @@ section,
 }
 
 .aboutus .box:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8px) !important;
   box-shadow: 6px 6px 0px var(--default-color);
 }
 
