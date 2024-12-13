@@ -72,31 +72,34 @@
 
       // Handle the 'Home' page
       if (
-        currentPath === "/index.html" &&
+        currentPath === "/lsdlebanon-test/index.html" &&
         link.getAttribute("href") === "index.html"
       ) {
         link.classList.add("active");
       }
       // Handle the 'Projects' page and any project-related pages (e.g., project-details.html)
       else if (
-        (currentPath === "/projects.html" &&
+        (currentPath === "/lsdlebanon-test/projects.html" &&
           link.getAttribute("href") === "projects.html") ||
-        (currentPath.startsWith("/project-details.html") &&
+        (currentPath.startsWith("/lsdlebanon-test/project-details.html") &&
           link.getAttribute("href") === "projects.html")
       ) {
         link.classList.add("active");
       }
       // Handle the 'Programms' page and any program-related pages (e.g., program-details.html)
       else if (
-        (currentPath === "/programms.html" &&
+        (currentPath === "/lsdlebanon-test/programms.html" &&
           link.getAttribute("href") === "programms.html") ||
-        (currentPath.startsWith("/program-details.html") &&
+        (currentPath.startsWith("/lsdlebanon-test/program-details.html") &&
           link.getAttribute("href") === "programms.html")
       ) {
         link.classList.add("active");
       }
       // Handle other pages (About, Contact, etc.)
-      else if (currentPath === "/" + link.getAttribute("href")) {
+      else if (
+        currentPath ===
+        "/lsdlebanon-test/" + link.getAttribute("href")
+      ) {
         link.classList.add("active");
       }
     });
@@ -171,6 +174,18 @@
    * Initiate Pure Counter
    */
   new PureCounter();
+
+  /*location*/
+  document.querySelectorAll(".card-clickable").forEach((card) => {
+    card.addEventListener("click", function () {
+      const url = this.getAttribute("data-url");
+      if (url.includes("wa.me") || url.includes("maps.google.com")) {
+        window.open(url, "_blank"); // Open in a new tab
+      } else {
+        window.location.href = url; // Open in the same tab for other URLs
+      }
+    });
+  });
 
   /**
    * Init swiper tabs sliders
@@ -329,17 +344,5 @@
           false
         );
       });
-  });
-
-  /*location*/
-  document.querySelectorAll(".card-clickable").forEach((card) => {
-    card.addEventListener("click", function () {
-      const url = this.getAttribute("data-url");
-      if (url.includes("wa.me") || url.includes("maps.google.com")) {
-        window.open(url, "_blank"); // Open in a new tab
-      } else {
-        window.location.href = url; // Open in the same tab for other URLs
-      }
-    });
   });
 })();
