@@ -25,12 +25,12 @@ const projects = [
       " A Cedar Tree Symbolizing the Tannourine Youth Council's Commitment to Local Development",
     date: "13 Sep 2024",
     photos: {
-      main: "assets/img/allprojects/p201.png",
+      main: "assets/img/allprojects/p201.jpg",
       gallery: [
         "assets/img/allprojects/p200.png",
-        "assets/img/allprojects/p201.png",
-        "assets/img/allprojects/p202.png",
-        "assets/img/allprojects/p203.png",
+        "assets/img/allprojects/p201.jpg",
+        "assets/img/allprojects/p202.jpg",
+        "assets/img/allprojects/p203.jpg",
       ],
     },
     description: `A new cedar tree in the Tannourine Cedar Forest Nature Reserve, after a day of hiking in nature and discussing local development with the youth.

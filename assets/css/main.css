@@ -3103,6 +3103,7 @@ section,
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 0.75rem;
   justify-content: space-evenly;
 }
 
