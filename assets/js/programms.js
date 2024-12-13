@@ -56,7 +56,7 @@ function displayProgramms() {
 
     // Create the project description (truncate to 35 words)
     const description = document.createElement("p");
-    description.textContent = truncateDescription(program.description, 30);
+    description.textContent = truncateDescription(program.description, 20);
 
     // Append elements to the article
     article.appendChild(imgDiv);
