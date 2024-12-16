@@ -72,8 +72,10 @@
 
       // Handle the 'Home' page
       if (
-        currentPath === "/lsdlebanon-test/index.html" &&
-        link.getAttribute("href") === "index.html"
+        (currentPath === "/lsdlebanon-test/index.html" &&
+          link.getAttribute("href") === "index.html") ||
+        (currentPath === "/lsdlebanon-test/" &&
+          link.getAttribute("href") === "index.html")
       ) {
         link.classList.add("active");
       }
