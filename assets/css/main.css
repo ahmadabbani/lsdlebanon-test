@@ -1415,8 +1415,8 @@ section,
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   padding: 10px;
   z-index: 10;
 }
@@ -1432,7 +1432,7 @@ section,
 /* Optional: Style the arrows with icons */
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .swiper-button-next:hover,
