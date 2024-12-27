@@ -72,36 +72,31 @@
 
       // Handle the 'Home' page
       if (
-        (currentPath === "/lsdlebanon-test/index.html" &&
-          link.getAttribute("href") === "index.html") ||
-        (currentPath === "/lsdlebanon-test/" &&
-          link.getAttribute("href") === "index.html")
+        (currentPath === "/" && link.getAttribute("href") === "/") || // Root path (home page)
+        (currentPath === "/index.html" && link.getAttribute("href") === "/") // In case index.html is accessed directly
       ) {
         link.classList.add("active");
       }
       // Handle the 'Projects' page and any project-related pages (e.g., project-details.html)
       else if (
-        (currentPath === "/lsdlebanon-test/projects.html" &&
+        (currentPath === "/projects.html" &&
           link.getAttribute("href") === "projects.html") ||
-        (currentPath.startsWith("/lsdlebanon-test/project-details.html") &&
+        (currentPath.startsWith("/project-details.html") &&
           link.getAttribute("href") === "projects.html")
       ) {
         link.classList.add("active");
       }
       // Handle the 'Programms' page and any program-related pages (e.g., program-details.html)
       else if (
-        (currentPath === "/lsdlebanon-test/programms.html" &&
+        (currentPath === "/programms.html" &&
           link.getAttribute("href") === "programms.html") ||
-        (currentPath.startsWith("/lsdlebanon-test/program-details.html") &&
+        (currentPath.startsWith("/program-details.html") &&
           link.getAttribute("href") === "programms.html")
       ) {
         link.classList.add("active");
       }
       // Handle other pages (About, Contact, etc.)
-      else if (
-        currentPath ===
-        "/lsdlebanon-test/" + link.getAttribute("href")
-      ) {
+      else if (currentPath === "/" + link.getAttribute("href")) {
         link.classList.add("active");
       }
     });
