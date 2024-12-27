@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.lsdlebanon.org/</loc>
+    <lastmod>2024-12-27</lastmod>
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- About Us Page -->
+  <url>
+    <loc>https://www.lsdlebanon.org/about.html</loc>
+    <lastmod>2024-12-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- projects Page -->
+  <url>
+    <loc>https://www.lsdlebanon.org/projects.html</loc>
+    <lastmod>2024-12-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- donation Page -->
+  <url>
+    <loc>https://www.lsdlebanon.org/donate-us.html</loc>
+    <lastmod>2024-12-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- programms Page (Example) -->
+  <url>
+    <loc>https://www.lsdlebanon.org/programms.html</loc>
+    <lastmod>2024-12-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+ <!-- contact Page (Example) -->
+  <url>
+    <loc>https://www.lsdlebanon.org/contact.html</loc>
+    <lastmod>2024-12-27</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
