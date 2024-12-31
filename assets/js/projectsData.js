@@ -59,8 +59,8 @@ This cedar tree represents the Youth Council in Tannourine, marking the beginnin
     title: "MEPI Alum Develops an Educational Manual on Voting in Lebanon",
     date: "25 Jun 2024",
     photos: {
-      main: "assets/img/allprojects/p151.jpg",
-      gallery: ["assets/img/allprojects/p150.jpg"],
+      main: "assets/img/allprojects/MEPI.PNG",
+      gallery: ["assets/img/allprojects/MEPI.PNG"],
     },
     description: `As many LDF Fellows, Michel El Daccache described the Leaders for Democracy Fellowship (LDF) program as a turning point in his life. The LDF experience was a milestone for multiple and enriching opportunities that helped shape his growing career. The program allowed him to develop his civic action plan and transform it into a manual that helps people understand the technicalities and practicalities of voting in Lebanon especially after the new 2018 elections law.
     
@@ -437,10 +437,7 @@ Several success stories and experiences have been shared that provide hope for t
     date: "9 Mar 2018",
     photos: {
       main: "assets/img/allprojects/p141.jpg",
-      gallery: [
-        "assets/img/allprojects/p140.jpg",
-        "assets/img/allprojects/p142.jpg",
-      ],
+      gallery: ["assets/img/allprojects/p140.jpg"],
     },
     description: `President of the Leadership for Sustainable Development, Mr. Michel Daccache,
          was hosted at “Al Mawaad” program on Mariam TV with Mr.
